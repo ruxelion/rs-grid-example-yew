@@ -1,0 +1,12 @@
+[watch]
+ignore = ["dist"]
+paths = ["src", "themes"]
+
+[serve]
+port = 9082
+
+[build]
+dist = "dist"
+# Release build: strips debug code, produces optimised WASM
+release = true
+target = "index.html"
