@@ -1,6 +1,10 @@
 //! Demo application showcasing rs-grid with Yew 0.21 CSR.
 
-use example_common::{build_model, fmt_cols, fmt_rows};
+use std::rc::Rc;
+
+use example_common::{
+    build_model, class_map::resolve_classes, fmt_cols, fmt_rows,
+};
 use rs_grid_core::state::GridState;
 use rs_grid_yew::{theme_from_css_vars, Locale, WebGridCanvas};
 use wasm_bindgen::prelude::*;
@@ -38,6 +42,7 @@ fn App() -> Html {
                     theme_from_css_vars(),
                     Locale::default(),
                 );
+                gc.set_class_resolver(Rc::new(resolve_classes));
                 gc.render();
                 *grid_ref.borrow_mut() = Some(gc);
             }
