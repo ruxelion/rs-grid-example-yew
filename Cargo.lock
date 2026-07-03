@@ -63,7 +63,7 @@ checksum = "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
 [[package]]
 name = "example-common"
 version = "0.1.0"
-source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.0#3253e39e3351a041ee68996a26f361bd0c790dd4"
+source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.5#c4a3f1447390917341cfbcfb754663e5cc17263b"
 dependencies = [
  "rs-grid-core",
  "rs-grid-icons",
@@ -562,18 +562,18 @@ dependencies = [
 
 [[package]]
 name = "rs-grid-core"
-version = "0.2.0"
-source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.0#3253e39e3351a041ee68996a26f361bd0c790dd4"
+version = "0.2.4"
+source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.5#c4a3f1447390917341cfbcfb754663e5cc17263b"
 
 [[package]]
 name = "rs-grid-icons"
 version = "0.1.2"
-source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.0#3253e39e3351a041ee68996a26f361bd0c790dd4"
+source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.5#c4a3f1447390917341cfbcfb754663e5cc17263b"
 
 [[package]]
 name = "rs-grid-render-canvas"
-version = "0.1.5"
-source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.0#3253e39e3351a041ee68996a26f361bd0c790dd4"
+version = "0.1.10"
+source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.5#c4a3f1447390917341cfbcfb754663e5cc17263b"
 dependencies = [
  "js-sys",
  "rs-grid-scene",
@@ -583,16 +583,16 @@ dependencies = [
 
 [[package]]
 name = "rs-grid-scene"
-version = "0.1.5"
-source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.0#3253e39e3351a041ee68996a26f361bd0c790dd4"
+version = "0.2.3"
+source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.5#c4a3f1447390917341cfbcfb754663e5cc17263b"
 dependencies = [
  "rs-grid-core",
 ]
 
 [[package]]
 name = "rs-grid-web"
-version = "0.1.6"
-source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.0#3253e39e3351a041ee68996a26f361bd0c790dd4"
+version = "0.1.11"
+source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.5#c4a3f1447390917341cfbcfb754663e5cc17263b"
 dependencies = [
  "console_error_panic_hook",
  "js-sys",
@@ -606,8 +606,8 @@ dependencies = [
 
 [[package]]
 name = "rs-grid-yew"
-version = "0.2.0"
-source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.0#3253e39e3351a041ee68996a26f361bd0c790dd4"
+version = "0.2.5"
+source = "git+https://github.com/ruxelion/rs-grid?tag=rs-grid-yew-v0.2.5#c4a3f1447390917341cfbcfb754663e5cc17263b"
 dependencies = [
  "rs-grid-core",
  "rs-grid-scene",
